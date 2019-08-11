@@ -35,6 +35,6 @@ contract Greeter is Mortal {
     /* we include indexed events to demonstrate the difference that can be
     captured versus non-indexed */
     event Modified(
-            string indexed oldGreetingIdx, string indexed newGreetingIdx,
-            string oldGreeting, string newGreeting);
+        string indexed oldGreetingIdx, string indexed newGreetingIdx,
+        string oldGreeting, string newGreeting);
 }
